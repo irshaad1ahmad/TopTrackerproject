@@ -1,0 +1,95 @@
+.downsetbtn{
+    margin-top: 230px;
+    border-top: 2px solid gray;
+    border: 3px solid #00c386;
+    border-radius: 5px;
+    background: #00c386;
+    font-weight: bolder;
+    padding: 8px;
+    text-transform: uppercase;
+}
+.project{
+    float: right;
+}
+.project a {
+    border: 3px solid #00c386;
+    border-radius: 5px;
+    background: #00c386;
+    font-size: 15px;
+    margin-right: 25px;
+    padding: 5px;
+    color: white;
+}
+.Projects a {
+    text-decoration: none;
+    color: black;
+}
+.textclr{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.bordrsng{
+    border-bottom: 2px solid blue;
+}
+.flotingset{
+    float: right;
+    margin-left: 30px;
+}
+.sntgfnt{
+    font-size: 12px;
+}
+.seticon{
+    border: 2px solid gray;
+    border-radius: 30px;
+    color: gray;
+    font-size: 30px;
+    position: absolute;
+
+}
+.setpara{
+    margin-left: 100px;
+}
+.floatingst{
+    float: right;
+}
+.fa-angle-down{
+    margin-top: 15px;
+    margin-left: -9px;
+    position: absolute;
+    font-size: 10px;
+}
+.fontingst{
+    font-size: 10px;
+}
+.iconstng{
+    margin-top: 14px;
+    margin-left: -6px;
+    position: absolute;
+    font-size: 10px;
+}
+.fontset{
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+}
+.fa-user-alt{
+    font-size: 10px;
+}
+.fa-briefcasee{
+    border: 2px solid grey;
+    border-radius: 50px;
+    color: grey;
+    padding: 5px;
+    font-size: 30px;
+    float: left;
+    
+}
+.floting{
+    margin-left: 25px;
+    color: rgb(59, 56, 56);
+} 
+.parasng{
+    margin-left: 30px;
+    font-size: 14px;
+}

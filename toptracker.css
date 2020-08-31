@@ -1,0 +1,64 @@
+.colrset{
+    background: #3863a3;
+
+}
+.tptr{
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.mrtset{
+    margin-top: 80px;
+}
+.downsetbtn{
+    margin-top: 230px;
+    border-top: 2px solid gray;
+    border: 3px solid #00c386;
+    border-radius: 5px;
+    background: #00c386;
+    font-weight: bolder;
+    padding: 8px;
+    text-transform: uppercase;
+}
+/* header start */
+.bacgrndset{
+    background: white;
+}
+.expndset{
+    float: right;
+}
+.expndset a {
+    color: #4c92e3;
+    margin-right: 20px;
+    font-size: 15px;
+}
+.borderstng{
+    border-bottom: 2px solid gray;
+}
+.noti{
+    color: gray;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+/* end */
+/* body start */
+.project{
+    float: right;
+}
+.Projects a {
+    text-decoration: none;
+    color: black;
+}
+.project a {
+    border: 3px solid #00c386;
+    border-radius: 5px;
+    background: #00c386;
+    font-size: 15px;
+    margin-right: 25px;
+    padding: 5px;
+    color: white;
+}
+.textclr{
+    text-decoration: none;
+    color: black;
+}
+/* end */

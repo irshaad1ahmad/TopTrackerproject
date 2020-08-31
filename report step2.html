@@ -1,0 +1,353 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Report step2</title>
+        <!-- Tell the browser to be responsive to screen width -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+      <!-- Ionicons -->
+      <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+      <!-- Tempusdominus Bbootstrap 4 -->
+      <link rel="stylesheet" href="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+      <!-- iCheck -->
+      <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+      <!-- JQVMap -->
+      <link rel="stylesheet" href="plugins/jqvmap/jqvmap.min.css">
+      <!-- Theme style -->
+      <link rel="stylesheet" href="dist/css/adminlte.min.css">
+      <!-- overlayScrollbars -->
+      <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+      <!-- Daterange picker -->
+      <link rel="stylesheet" href="plugins/daterangepicker/daterangepicker.css">
+      <!-- summernote -->
+      <link rel="stylesheet" href="demoAdminlte.css">
+      <link rel="stylesheet" href="report step2.css">
+      <!-- Google Font: Source Sans Pro -->
+      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    </head>
+    <body>
+                      <!-- Main Sidebar Container -->
+ <aside class="main-sidebar sidebar-dark-primary elevation-4">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Sidebar user panel (optional) -->
+      <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+        <div class="image">
+          <img src="dist/img/irshad.jpeg" class="img-circle elevation-1" alt="User Image">
+        </div>
+        <div class="info">
+          <a href="#" class="d-block">TopTracker</a>
+        </div>
+      </div>
+
+      <!-- Sidebar Menu -->
+      <nav class="mt-2">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+          <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+          <li class="nav-item">
+            <a href="pages/widgets.html" class="nav-link">
+              <i class="fas fa-briefcase mr-2 "></i>
+              <p>
+               Projects
+               
+              </p>
+            </a>
+          </li>
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="far fa-chart-bar mr-2"></i>
+              <p>
+                Reports
+              </p>
+            </a>
+            <li class="nav-item has-treeview">
+              <a href="#" class="nav-link">
+                <i class="fas fa-wave-square mr-2"></i>
+                <p>
+                  My Activity
+                </p>
+              </a>
+              <li class="nav-item has-treeview">
+                <a href="#" class="nav-link">
+                  <i class="fas fa-stopwatch mr-2"></i>
+                  <p>
+                   Web Tracker
+                  </p>
+                </a>
+                <li class="nav-item has-treeview">
+                  <a href="#" class="nav-link">
+                    <i class="fas fa-stopwatch mr-2"></i>
+                    <p>
+                     Invoices
+                    </p>
+                  </a>
+
+          </li>
+          
+          <li class="nav-item has-treeview">
+            <a href="#" class="nav-link">
+              <i class="nav-icon far fa-plus-square"></i>
+              <p>
+                Irshad Ahmad
+                <i class="fas fa-angle-left right"></i>
+              </p>
+            </a>
+            <ul class="nav nav-treeview">
+              <li class="nav-item">
+                <a href="pages/examples/login.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Activity Client Account</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/examples/register.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Account Setting</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/examples/forgot-password.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Questions & Feedback</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/examples/recover-password.html" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Sign Out</p>
+                </a>
+              </li>
+        </ul>
+        <div>
+          <a href=""><h6 class=" btn btn-dark-gray downsetbtn text-white ml-3 mb-5">Download free app</h6></a>
+      </div>
+      </nav>
+      <!-- /.sidebar-menu -->
+    </div>
+    <!-- /.sidebar -->
+  </aside> 
+  <!-- body start -->
+  <div class="content-wrapper bg-white">
+       <!-- footer start -->
+       <div class="d-flex justify-content-between">
+        <div class="ml-3 mt-4 sizing">
+          <h2>Reports</h2>
+       </div>
+        <div class="mr-3 mt-4 sizeing">
+         <p>Timezone:(+05:00) Asia-Karachi</p>
+       </div>
+  </div>
+    <!-- footer end -->
+    <!-- btn start -->
+    <div class="d-flex justify-content-between">
+      <div class="ml-3 mt-4 sizing">
+          <div class="d-flex ">
+            <div class="dropdown">
+              <a class=" px-4 btn btn-secondary " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class=" mr-2 fas fa-briefcase breef-icon-custom"></i> All projects(1)<i class="fas fa-angle-down"></i>
+              </a>
+              <div class="dropdown-menu dropdown-cutom" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+            <div class="dropdown ml-3">
+              <a class=" px-4 btn btn-secondary " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class=" mr-2 fas fa-briefcase breef-icon-custom"></i> All projects(1)<i class="fas fa-angle-down"></i>
+              </a>
+              <div class="dropdown-menu dropdown-cutom" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="mr-3 mt-4">
+        <div class="dropdown">
+          <a class=" px-4 btn btn-secondary " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class=" mr-2 fas fa-briefcase breef-icon-custom"></i> All projects(1)<i class="fas fa-angle-down"></i>
+          </a>
+          <div class="dropdown-menu dropdown-cutom" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+    </div>
+    <!-- btn end -->
+</div>
+<div class="row">
+  <div class="d-flex">
+    <h3 class="ml-3 mr-3 mt-3 prset">Projects</h3>
+    <h3 class="mem mt-3 ml-3">Members</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+    <figure class="highcharts-figure">
+      <div id="container"></div>
+     
+    </figure>
+  </div>
+</div>
+<div class="d-flex justify-content-between">
+  <div class=" d-flex ml-3 mt-2 sizing">
+    <p class="mr-4 allcolrset">Time summary</p>
+    <p class="mr-4"><span class="workset">Work sheet</span></p>
+    <p class="allcolrset">Activity Log</p>
+ </div>
+  <div class=" d-flex mt-4 ">
+   <a href="#" class="exportset mr-3">Export as PDF</a>
+   <a href="#" class="exportset mr-3">Export as CSV</a>
+ </div>
+</div>
+
+<table class="table">
+<thead>
+  <tr>
+    <th scope="col">Date</th>
+    <th scope="col">Time</th>
+    <th scope="col">Activity Name</th>
+    <th scope="col">Member</th>
+    <th scope="col">Project</th>
+    <th scope="col">Aug23</th>
+    <th scope="col">Duration</th>
+    <th scope="col">Amount</th>
+    <th scope="col">Screenshoot</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <th scope="row">Aug <br> 26 <span>4:44pm-4:44pm</span></th>
+    <td>Working</td>
+    <td>Abdul Rafay</td>
+    <td>Mangiadanoi</td>
+    <td>!3secs</td>
+    <td>--</td>
+    <td>--</td>
+    <td>0</td>
+    <td>13 sec</td>
+    <td>00:43</td>
+  </tr>
+  <tr>
+    <th scope="row">Total</th>
+    <td>__</td>
+    <td>--</td>
+    <td>00:43</td>
+    <td>--</td>
+    <td>--</td>
+    <td>--</td>
+    <td>--</td>
+    <td>13 sec</td>
+    <td>00:43</td>
+  </tr>
+</tbody>
+</table>
+  </div>
+  <!-- body end   -->
+
+
+
+
+
+
+                          <!-- js libraries -->
+    <!-- jQuery -->
+<script src="plugins/jquery/jquery.min.js"></script>
+<!-- jQuery UI 1.11.4 -->
+<script src="plugins/jquery-ui/jquery-ui.min.js"></script>
+<!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+<script>
+  $.widget.bridge('uibutton', $.ui.button)
+</script>
+<!-- Bootstrap 4 -->
+<script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- ChartJS -->
+<script src="plugins/chart.js/Chart.min.js"></script>
+<!-- Sparkline -->
+<script src="plugins/sparklines/sparkline.js"></script>
+<!-- JQVMap -->
+<script src="plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<!-- jQuery Knob Chart -->
+<script src="plugins/jquery-knob/jquery.knob.min.js"></script>
+<!-- daterangepicker -->
+<script src="plugins/moment/moment.min.js"></script>
+<script src="plugins/daterangepicker/daterangepicker.js"></script>
+<!-- Tempusdominus Bootstrap 4 -->
+<script src="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<!-- Summernote -->
+<script src="plugins/summernote/summernote-bs4.min.js"></script>
+<!-- overlayScrollbars -->
+<script src="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<!-- AdminLTE App -->
+<script src="dist/js/adminlte.js"></script>
+<!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+<script src="dist/js/pages/dashboard.js"></script>
+<!-- AdminLTE for demo purposes -->
+<script src="dist/js/demo.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+<script>
+  Highcharts.chart('container', {
+
+chart: {
+  type: 'column'
+},
+
+xAxis: {
+  categories: ['Apples', 'Oranges', 'Pears', 'Grapes', 'Bananas']
+},
+
+yAxis: {
+  allowDecimals: false,
+  min: 0,
+  title: {
+    text: 'Number of fruits'
+  }
+},
+
+tooltip: {
+  formatter: function () {
+    return '<b>' + this.x + '</b><br/>' +
+      this.series.name + ': ' + this.y + '<br/>' +
+      'Total: ' + this.point.stackTotal;
+  }
+},
+
+plotOptions: {
+  column: {
+    stacking: 'normal'
+  }
+},
+
+series: [{
+  name: 'John',
+  data: [5, 3, 4, 7, 2],
+  stack: 'male'
+}, {
+  name: 'Joe',
+  data: [3, 4, 4, 2, 5],
+  stack: 'male'
+}, {
+  name: 'Jane',
+  data: [2, 5, 6, 2, 1],
+  stack: 'female'
+}, {
+  name: 'Janet',
+  data: [3, 0, 4, 4, 3],
+  stack: 'female'
+}]
+});
+
+</script>
+    </body>
+</html>
